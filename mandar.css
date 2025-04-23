@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5efef;
+  color: #1e1cc2;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #006280;
+  color: rgb(39, 184, 165);
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(51, 179, 25);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #e0ecff;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.hero video {
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.servicios {
+  background-color: #e4e4e498;
+  padding: 40px 0;
+}
+
+.servicio {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.servicio img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.nosotros {
+  background-color: #2222cc21;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.nosotros img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.contacto {
+  background-color: #000205;
+  padding: 40px 0;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #0cf71f;
+}
+
+form button {
+  margin-top: 15px;
+  background-color: #36ee3f;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #12eedc;
+  color: rgb(38, 55, 209);
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
